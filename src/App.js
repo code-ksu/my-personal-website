@@ -6,16 +6,19 @@ import {
   createBrowserRouter
 } from 'react-router';
 
-import HomePage from './HomePage';
+import About from './About';
 import Impressum from './Impressum';
 import Header from './Header';
 import Footer from './Footer';
+import PodcastPage from './podcast-page';
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<About />} />
       <Route path="/impressum" element={<Impressum />} />
+      <Route path="/podcast" element={<PodcastPage />} />
     </>
   )
 );

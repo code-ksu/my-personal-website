@@ -24,7 +24,7 @@ const startupProjects = [
     }
 ];
 
-const HomePage = () => {
+const About = () => {
     return (
         <>
             {/* Content Container */}
@@ -47,13 +47,13 @@ const HomePage = () => {
                     {/* Text Content */}
                     <div className="md:w-1/2 md:pl-12">
                         <h1 className="text-4xl font-serif mb-6">
-                            Kseniia Brauer is a developer, creator, and startup founder.
+                            Kseniia Brauer is a startup founder, creator, and machine learning specialist.
                         </h1>
 
                         <p className="text-xl mb-6">
                             She has worked on numerous projects including
                             <span className="underline decoration-yellow-300 decoration-4">
-                                {" "}innovative startups
+                                {" "}innovative startup
                             </span>
                             {" "}that make a difference.
                         </p>
@@ -99,7 +99,7 @@ const HomePage = () => {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            Explore Initiative →
+                                            Learn more →
                                         </a>
                                     </div>
                                 </div>
@@ -112,4 +112,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default About;
