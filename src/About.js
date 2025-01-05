@@ -7,6 +7,7 @@ const startupProjects = [
         image: "/images/public speaking.jpg",
         title: "GenAI Consulting",
         description: "Empowering enterprises with custom GenAI solutions. Bridging the gap between cutting-edge AI technology and business value.",
+        link: "/consultancy"
     },
     {
         id: 2,
@@ -75,8 +76,11 @@ const About = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                         {startupProjects.map((project) => (
-                            <div
+                            <a
                                 key={project.id}
+                                href={project.link}
+                                target={project.link.startsWith('http') ? "_blank" : ""}
+                                rel={project.link.startsWith('http') ? "noopener noreferrer" : ""}
                                 className="group relative h-[280px] rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl bg-white"
                             >
                                 <div className="flex h-full">
@@ -93,17 +97,12 @@ const About = () => {
                                     <div className="w-1/2 p-4 flex flex-col justify-center">
                                         <h3 className="text-lg font-semibold mb-2 text-gray-800">{project.title}</h3>
                                         <p className="text-sm text-gray-600 mb-3 line-clamp-3">{project.description}</p>
-                                        <a
-                                            href={project.link}
-                                            className="text-teal-700 text-sm font-medium hover:text-teal-600"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
+                                        <span className="text-teal-700 text-sm font-medium group-hover:text-teal-600">
                                             Learn more →
-                                        </a>
+                                        </span>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         ))}
                     </div>
                 </div>

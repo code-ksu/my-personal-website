@@ -11,7 +11,10 @@ import Impressum from './Impressum';
 import Header from './Header';
 import Footer from './Footer';
 import PodcastPage from './podcast-page';
-
+import Blog from './Blog';
+import BlogPost from './BlogPost';
+import Contact from './Contact';
+import Consultancy from './Consultancy';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +22,10 @@ const router = createBrowserRouter(
       <Route path="/" element={<About />} />
       <Route path="/impressum" element={<Impressum />} />
       <Route path="/podcast" element={<PodcastPage />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:id" element={<BlogPost />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/consultancy" element={<Consultancy />} />
     </>
   )
 );

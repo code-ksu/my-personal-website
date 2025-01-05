@@ -62,36 +62,10 @@ const Headphones = ({ className }) => (
 const PodcastPage = () => {
   const fallingElements = Array.from({ length: 40 }, () => ({
     type: ['dollar', 'euro', 'mic', 'headphones', 'computer'][Math.floor(Math.random() * 5)],
-    delay: Math.random() * 20,
-    duration: 15 + Math.random() * 10,
+    delay: Math.random() * 5,
+    duration: 10 + Math.random() * 5,
     left: Math.random() * 100,
   }));
-
-
-  // Sample episodes data
-  const episodes = [
-    {
-      id: 1,
-      title: "How to F*ck Up Your Startup",
-      description: "In our premiere episode, we dive into the raw, unfiltered truths of being a founder and share our biggest initial mistakes.",
-      embedId: "your-youtube-id-1",
-      date: "2024-01-15"
-    },
-    {
-      id: 2,
-      title: "The Investment Reality Check",
-      description: "Breaking down the myths about startup funding and sharing real stories about what investors actually want to see.",
-      embedId: "your-youtube-id-2",
-      date: "2024-02-01"
-    },
-    {
-      id: 3,
-      title: "When Your MVP Fails",
-      description: "The honest truth about what happens when your minimum viable product isn't so viable after all.",
-      embedId: "your-youtube-id-3",
-      date: "2024-02-15"
-    }
-  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500">
@@ -109,9 +83,14 @@ const PodcastPage = () => {
                 opacity: 1;
               }
               100% {
-                transform: translateY(100vh) rotate(360deg);
+                transform: translateY(120vh) rotate(360deg);
                 opacity: 0;
               }
+            }
+
+            .falling-element {
+              position: fixed;
+              will-change: transform;
             }
           `}
         </style>
@@ -119,12 +98,13 @@ const PodcastPage = () => {
         {fallingElements.map((element, index) => (
           <div
             key={index}
-            className="absolute"
+            className="falling-element"
             style={{
               top: '-20px',
               left: `${element.left}%`,
               animation: `fall ${element.duration}s linear infinite`,
               animationDelay: `${element.delay}s`,
+              zIndex: 1,
             }}
           >
             <div className={`w-10 opacity-80`}>
@@ -172,7 +152,30 @@ const PodcastPage = () => {
       {/* Episodes Grid */}
       <div className="container mx-auto px-6 pb-16 relative z-10">
         <div className="grid gap-12">
-          {episodes.map((episode) => (
+          {/* Sample episodes data */}
+          {[
+            {
+              id: 1,
+              title: "How to F*ck Up Your Startup",
+              description: "In our premiere episode, we dive into the raw, unfiltered truths of being a founder and share our biggest initial mistakes.",
+              embedId: "your-youtube-id-1",
+              date: "2024-01-15"
+            },
+            {
+              id: 2,
+              title: "The Investment Reality Check",
+              description: "Breaking down the myths about startup funding and sharing real stories about what investors actually want to see.",
+              embedId: "your-youtube-id-2",
+              date: "2024-02-01"
+            },
+            {
+              id: 3,
+              title: "When Your MVP Fails",
+              description: "The honest truth about what happens when your minimum viable product isn't so viable after all.",
+              embedId: "your-youtube-id-3",
+              date: "2024-02-15"
+            }
+          ].map((episode) => (
             <div
               key={episode.id}
               className="bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300"
