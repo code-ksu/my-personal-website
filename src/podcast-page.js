@@ -123,10 +123,10 @@ const PodcastPage = () => {
           </div>
         ))}
 
-        <div className="container mx-auto px-6 py-16 relative z-10">
-          <div className="text-center mb-16">
+        <div className="container mx-auto px-6 py-8 relative z-10">
+          <div className="text-center mb-4">
             <h1
-              className="text-8xl font-bold mb-8"
+              className="text-8xl font-bold mb-4"
               style={{
                 color: '#FFD700',
                 WebkitTextStroke: '1px black',
@@ -151,10 +151,10 @@ const PodcastPage = () => {
 
       {/* Episodes Grid */}
       <div className="container mx-auto px-6 pb-16 relative z-10">
-        <div className="grid gap-12">
+        <div className="grid gap-8">
           {/* Latest Episodes */}
-          <div className="container mx-auto px-4 py-8">
-            <div className="text-center mb-12">
+          <div className="container mx-auto px-4 py-4">
+            <div className="text-center mb-8">
               <h1 className="text-4xl font-bold text-white mb-4">Latest Episodes</h1>
             </div>
 
