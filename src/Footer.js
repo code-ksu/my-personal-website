@@ -1,12 +1,9 @@
 const footer = () => (
     <>
-        {/* White Divider Line */}
-        <div className="h-10 bg-white w-full shadow-md"></div>
-
         {/* Podcast Section with Wave */}
         <div className="relative">
             {/* Background */}
-            <div className="absolute w-full h-full bg-yellow-400">
+            <div className="absolute w-full h-full">
                 {/* Wave SVG */}
                 <div className="absolute bottom-0 w-full">
                     <svg
@@ -25,10 +22,8 @@ const footer = () => (
 
             {/* Content */}
             <div className="relative">
-                {/* Simple marquee text */}
-                {/* Wave Text Animation */}
-                {/* Wave Text Animation */}
-                <div className="relative bg-yellow-400 overflow-hidden w-full"> {/* Added overflow-hidden and w-full */}
+                {/* Wave marquee Animation */}
+                <div className="relative overflow-hidden w-full">
                     <svg width="100%" height="200" viewBox="0 0 1880 200" xmlns="http://www.w3.org/2000/svg"> {/* Doubled viewBox width */}
                         <style>
                             {`
