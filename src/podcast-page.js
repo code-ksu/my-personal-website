@@ -250,15 +250,6 @@ const PodcastPage = () => {
                     <p className="text-gray-700 mb-4">
                       We dive deep into some of the toughest questions about AI, mental health, and data security that every investor and AI enthusiast should understand – but likely doesn't.
                     </p>
-                    <div className="mb-4">
-                      <h3 className="text-lg font-semibold text-gray-800 mb-2">🔥 Key Highlights:</h3>
-                      <ul className="list-disc list-inside text-gray-700">
-                        <li>What's really behind AI hallucinations and how we're handling them</li>
-                        <li>The difference between fine-tuning and RAG</li>
-                        <li>Can AI replace a human therapist? We break down why it's not the goal but could be a solution for some</li>
-                        <li>Security risks in AI and data protection</li>
-                      </ul>
-                    </div>
                     <div className="flex space-x-4">
                       <a 
                         href="https://www.youtube.com/watch?v=K0pLriqRcRU" 
