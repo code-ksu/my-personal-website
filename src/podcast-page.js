@@ -156,7 +156,6 @@ const PodcastPage = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold text-white mb-4">Latest Episodes</h1>
-              <p className="text-xl text-white opacity-90">Dive into the world of AI, technology, and innovation</p>
             </div>
 
             <div className="grid gap-8 max-w-4xl mx-auto">
