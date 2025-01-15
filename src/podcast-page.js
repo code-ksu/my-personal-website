@@ -152,146 +152,157 @@ const PodcastPage = () => {
       {/* Episodes Grid */}
       <div className="container mx-auto px-6 pb-16 relative z-10">
         <div className="grid gap-12">
-          {/* Sample episodes data */}
-          {[
-            {
-              id: 1,
-              title: "How to F*ck Up Your Startup",
-              description: "In our premiere episode, we dive into the raw, unfiltered truths of being a founder and share our biggest initial mistakes.",
-              embedId: "your-youtube-id-1",
-              date: "2024-01-15"
-            },
-            {
-              id: 2,
-              title: "The Investment Reality Check",
-              description: "Breaking down the myths about startup funding and sharing real stories about what investors actually want to see.",
-              embedId: "your-youtube-id-2",
-              date: "2024-02-01"
-            },
-            {
-              id: 3,
-              title: "When Your MVP Fails",
-              description: "The honest truth about what happens when your minimum viable product isn't so viable after all.",
-              embedId: "your-youtube-id-3",
-              date: "2024-02-15"
-            }
-          ].map((episode) => (
-            <div
-              key={episode.id}
-              className="bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300"
-            >
-              <div className="grid md:grid-cols-2 gap-6 p-6">
-                <div className="aspect-video bg-gray-200 rounded-lg">
-                  <div className="w-full h-full flex items-center justify-center">
-                    <img
-                      src="/api/placeholder/640/360"
-                      alt="Episode thumbnail"
-                      className="w-full h-full object-cover rounded"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-col justify-center">
-                  <div className="text-sm text-fuchsia-600 mb-2">{episode.date}</div>
-                  <h2 className="text-2xl font-bold mb-4">{episode.title}</h2>
-                  <p className="text-gray-600 mb-6">{episode.description}</p>
-                  <a
-                    href={`https://youtube.com/watch?v=${episode.embedId}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-6 py-3 bg-fuchsia-600 text-white rounded-full hover:bg-fuchsia-700 transition-colors duration-300 w-fit"
-                  >
-                    Watch Episode
-                  </a>
-                </div>
-              </div>
+          {/* Latest Episodes */}
+          <div className="container mx-auto px-4 py-8">
+            <div className="text-center mb-12">
+              <h1 className="text-4xl font-bold text-white mb-4">Latest Episodes</h1>
+              <p className="text-xl text-white opacity-90">Dive into the world of AI, technology, and innovation</p>
             </div>
-          ))}
-        </div>
 
-        {/* Latest Episodes */}
-        <div className="container mx-auto px-4 py-8">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-white mb-4">Latest Episodes</h1>
-            <p className="text-xl text-white opacity-90">Dive into the world of AI, technology, and innovation</p>
-          </div>
-
-          <div className="grid gap-8 max-w-4xl mx-auto">
-            {/* Latest Episode */}
-            <div className="bg-white rounded-lg shadow-lg p-6 transform hover:scale-102 transition-transform duration-200">
-              <div className="flex flex-col md:flex-row gap-6">
-                <div className="md:w-1/3">
-                  <div className="relative aspect-video">
-                    <img 
-                      src="https://i3.ytimg.com/vi/K0pLriqRcRU/maxresdefault.jpg" 
-                      alt="What Investors Do Not Know About AI? #11" 
-                      className="rounded-lg w-full h-full object-cover"
-                    />
+            <div className="grid gap-8 max-w-4xl mx-auto">
+              {/* Episode 13 */}
+              <div className="bg-white rounded-lg shadow-lg p-6 transform hover:scale-102 transition-transform duration-200">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/3">
+                    <div className="relative aspect-video">
+                      <img 
+                        src="https://i3.ytimg.com/vi/HuwtABBW8_4/maxresdefault.jpg" 
+                        alt="How to Build an AI Startup in 2024? #13" 
+                        className="rounded-lg w-full h-full object-cover"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="md:w-2/3">
-                  <div className="flex justify-between items-start mb-4">
-                    <h2 className="text-2xl font-bold text-gray-800">What Investors Do Not Know About AI? #11</h2>
-                    <span className="text-gray-600">13.11.2024</span>
-                  </div>
-                  <p className="text-gray-700 mb-4">
-                    We dive deep into some of the toughest questions about AI, mental health, and data security that every investor and AI enthusiast should understand – but likely doesn't.
-                  </p>
-                  <div className="mb-4">
-                    <h3 className="text-lg font-semibold text-gray-800 mb-2">🔥 Key Highlights:</h3>
-                    <ul className="list-disc list-inside text-gray-700">
-                      <li>What's really behind AI hallucinations and how we're handling them</li>
-                      <li>The difference between fine-tuning and RAG</li>
-                      <li>Can AI replace a human therapist? We break down why it's not the goal but could be a solution for some</li>
-                      <li>Security risks in AI and data protection</li>
-                    </ul>
-                  </div>
-                  <div className="flex space-x-4">
-                    <a 
-                      href="https://www.youtube.com/watch?v=K0pLriqRcRU" 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
-                    >
-                      <FaYoutube className="mr-2" />
-                      Watch on YouTube
-                    </a>
+                  <div className="md:w-2/3">
+                    <div className="flex justify-between items-start mb-4">
+                      <h2 className="text-2xl font-bold text-gray-800">How to Build an AI Startup in 2024? #13</h2>
+                      <span className="text-gray-600">15.01.2025</span>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      A comprehensive guide to building an AI startup in today's competitive landscape. From ideation to execution, we cover the essential steps and strategies.
+                    </p>
+                    <div className="flex space-x-4">
+                      <a 
+                        href="https://www.youtube.com/watch?v=HuwtABBW8_4" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
+                      >
+                        <FaYoutube className="mr-2" />
+                        Watch on YouTube
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Add more episodes here */}
+              {/* Episode 12 */}
+              <div className="bg-white rounded-lg shadow-lg p-6 transform hover:scale-102 transition-transform duration-200">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/3">
+                    <div className="relative aspect-video">
+                      <img 
+                        src="https://i3.ytimg.com/vi/iVGO3sj1t6g/maxresdefault.jpg" 
+                        alt="The Future of AI Startups #12" 
+                        className="rounded-lg w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="md:w-2/3">
+                    <div className="flex justify-between items-start mb-4">
+                      <h2 className="text-2xl font-bold text-gray-800">The Future of AI Startups #12</h2>
+                      <span className="text-gray-600">14.12.2024</span>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      Exploring the evolving landscape of AI startups and what the future holds for entrepreneurs in this space. We discuss trends, opportunities, and challenges.
+                    </p>
+                    <div className="flex space-x-4">
+                      <a 
+                        href="https://www.youtube.com/watch?v=iVGO3sj1t6g" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
+                      >
+                        <FaYoutube className="mr-2" />
+                        Watch on YouTube
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Episode 11 */}
+              <div className="bg-white rounded-lg shadow-lg p-6 transform hover:scale-102 transition-transform duration-200">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/3">
+                    <div className="relative aspect-video">
+                      <img 
+                        src="https://i3.ytimg.com/vi/K0pLriqRcRU/maxresdefault.jpg" 
+                        alt="What Investors Do Not Know About AI? #11" 
+                        className="rounded-lg w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="md:w-2/3">
+                    <div className="flex justify-between items-start mb-4">
+                      <h2 className="text-2xl font-bold text-gray-800">What Investors Do Not Know About AI? #11</h2>
+                      <span className="text-gray-600">13.11.2024</span>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                      We dive deep into some of the toughest questions about AI, mental health, and data security that every investor and AI enthusiast should understand – but likely doesn't.
+                    </p>
+                    <div className="mb-4">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2">🔥 Key Highlights:</h3>
+                      <ul className="list-disc list-inside text-gray-700">
+                        <li>What's really behind AI hallucinations and how we're handling them</li>
+                        <li>The difference between fine-tuning and RAG</li>
+                        <li>Can AI replace a human therapist? We break down why it's not the goal but could be a solution for some</li>
+                        <li>Security risks in AI and data protection</li>
+                      </ul>
+                    </div>
+                    <div className="flex space-x-4">
+                      <a 
+                        href="https://www.youtube.com/watch?v=K0pLriqRcRU" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
+                      >
+                        <FaYoutube className="mr-2" />
+                        Watch on YouTube
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Subscribe Section */}
- 
-      {/* Subscribe Section */}
-      <div className="mt-16 text-center relative">
-        <h3 className="text-3xl font-bold mb-6">Show More & Never Miss an Episode!</h3>
-        <div className="flex flex-wrap justify-center gap-4">
-          {/* /* YouTube Button */ }
-          <a
-            href="https://www.youtube.com/@Startupslts"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors duration-300 font-bold text-lg"
-          >
-            <FaYoutube className="mr-2"/>
-            Watch on YouTube
-          </a>
-          {/* Spotify Button */}
-          <a
-            href="https://open.spotify.com/show/yourSpotifyLink"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-full hover:bg-green-400 transition-colors duration-300 font-bold text-lg"
-          >
-            <FaSpotify className="mr-2"/>
-            Listen on Spotify
-          </a>
+        <div className="mt-16 text-center relative">
+          <h3 className="text-3xl font-bold mb-6">Show More & Never Miss an Episode!</h3>
+          <div className="flex flex-wrap justify-center gap-4">
+            {/* YouTube Button */}
+            <a
+              href="https://www.youtube.com/@Startupslts"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-500 transition-colors duration-300 font-bold text-lg"
+            >
+              <FaYoutube className="mr-2"/>
+              Watch on YouTube
+            </a>
+            {/* Spotify Button */}
+            <a
+              href="https://open.spotify.com/show/yourSpotifyLink"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-full hover:bg-green-400 transition-colors duration-300 font-bold text-lg"
+            >
+              <FaSpotify className="mr-2"/>
+              Listen on Spotify
+            </a>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   );
