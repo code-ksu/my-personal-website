@@ -208,6 +208,62 @@ const PodcastPage = () => {
           ))}
         </div>
 
+        {/* Latest Episodes */}
+        <div className="container mx-auto px-4 py-8">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl font-bold text-white mb-4">Latest Episodes</h1>
+            <p className="text-xl text-white opacity-90">Dive into the world of AI, technology, and innovation</p>
+          </div>
+
+          <div className="grid gap-8 max-w-4xl mx-auto">
+            {/* Latest Episode */}
+            <div className="bg-white rounded-lg shadow-lg p-6 transform hover:scale-102 transition-transform duration-200">
+              <div className="flex flex-col md:flex-row gap-6">
+                <div className="md:w-1/3">
+                  <div className="relative aspect-video">
+                    <img 
+                      src="https://i3.ytimg.com/vi/K0pLriqRcRU/maxresdefault.jpg" 
+                      alt="What Investors Do Not Know About AI? #11" 
+                      className="rounded-lg w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                <div className="md:w-2/3">
+                  <div className="flex justify-between items-start mb-4">
+                    <h2 className="text-2xl font-bold text-gray-800">What Investors Do Not Know About AI? #11</h2>
+                    <span className="text-gray-600">13.11.2024</span>
+                  </div>
+                  <p className="text-gray-700 mb-4">
+                    We dive deep into some of the toughest questions about AI, mental health, and data security that every investor and AI enthusiast should understand – but likely doesn't.
+                  </p>
+                  <div className="mb-4">
+                    <h3 className="text-lg font-semibold text-gray-800 mb-2">🔥 Key Highlights:</h3>
+                    <ul className="list-disc list-inside text-gray-700">
+                      <li>What's really behind AI hallucinations and how we're handling them</li>
+                      <li>The difference between fine-tuning and RAG</li>
+                      <li>Can AI replace a human therapist? We break down why it's not the goal but could be a solution for some</li>
+                      <li>Security risks in AI and data protection</li>
+                    </ul>
+                  </div>
+                  <div className="flex space-x-4">
+                    <a 
+                      href="https://www.youtube.com/watch?v=K0pLriqRcRU" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
+                    >
+                      <FaYoutube className="mr-2" />
+                      Watch on YouTube
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Add more episodes here */}
+          </div>
+        </div>
+
         {/* Subscribe Section */}
  
       {/* Subscribe Section */}
@@ -240,8 +296,5 @@ const PodcastPage = () => {
     </div>
   );
 };
-
- 
-
 
 export default PodcastPage;
