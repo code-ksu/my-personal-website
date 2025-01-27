@@ -120,7 +120,8 @@ function BlogPost() {
                   <img 
                     {...props} 
                     src={transformImagePath(props.src)}
-                    className="rounded-lg shadow-sm my-8" 
+                    alt={props.alt || 'content visualisation'}
+                    className="rounded-lg shadow-sm my-8"
                   />
                 )
               }}

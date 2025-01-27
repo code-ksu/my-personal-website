@@ -119,7 +119,7 @@ function BlogPostPreview({ post, onCategoryClick }) {
                 remarkPlugins={[remarkGfm]}
                 components={{
                   img: ({node, ...props}) => (
-                    <img {...props} src={transformImagePath(props.src)} />
+                    <img {...props} src={transformImagePath(props.src)} alt={props.alt || 'content visualisation'} />
                   )
                 }}
               >
