@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "future-of-ai-2025",
+      "title": "The Future of AI in 2025",
+      "date": "2025-01-03",
+      "category": "AI",
+      "excerpt": "Exploring the latest developments in artificial intelligence and their impact on our daily lives.",
+      "image": "/content/blog/images/slts.png"
+    },
+    {
+      "id": "digital-work-life-balance",
+      "title": "Finding Balance in a Digital World",
+      "date": "2025-01-03",
+      "category": "Work/Life Balance",
+      "excerpt": "Practical strategies for maintaining work-life balance in an increasingly connected world.",
+      "image": "/content/blog/images/slts.png"
+    },
+    {
+      "id": "sustainable-business-practices",
+      "title": "Sustainable Business Practices",
+      "date": "2025-01-03",
+      "category": "Business",
+      "excerpt": "How modern businesses are adapting to meet environmental and social responsibilities.",
+      "image": "/content/blog/images/slts.png"
+    }
+  ]
+}
