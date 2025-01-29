@@ -24,13 +24,18 @@ const footer = () => (
             <div className="relative">
                 {/* Wave marquee Animation */}
                 <div className="relative overflow-hidden w-full">
-                    <svg width="100%" height="200" viewBox="0 0 1880 200" xmlns="http://www.w3.org/2000/svg"> {/* Doubled viewBox width */}
+                    <svg width="100%" height="200" viewBox="0 0 1880 200" xmlns="http://www.w3.org/2000/svg" className="transform-origin-center md:scale-100 scale-150"> 
                         <style>
                             {`
         text {
             font-size: 3rem;
             font-family: serif;
             fill: #1a1a1a;
+        }
+        @media (max-width: 768px) {
+            text {
+                font-size: 4rem;
+            }
         }
     `}
                         </style>
@@ -86,7 +91,7 @@ const footer = () => (
             </div>
         </div>
         <footer className="bg-white py-8 text-center">
-            <p className="text-sm text-gray-600">© Kseniia Brauer {new Date().getFullYear()}</p>
+            <p className="text-sm text-gray-600"> Kseniia Brauer {new Date().getFullYear()}</p>
             <a href="/impressum" className="text-sm text-gray-600 hover:text-gray-800 ml-4">
                 Impressum
             </a>
