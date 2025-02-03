@@ -283,7 +283,7 @@ const PodcastPage = () => {
             </a>
             {/* Spotify Button */}
             <a
-              href="https://open.spotify.com/show/yourSpotifyLink"
+              href="https://open.spotify.com/show/2uSmZHz35r9LGq6vVrzD3Q"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-full hover:bg-green-400 transition-colors duration-300 font-bold text-lg"
