@@ -13,13 +13,13 @@ const header = () => (
             <a href="/podcast" className="hover:text-gray-600">podcast</a>
             <a href="/blog" className="hover:text-gray-600">blog</a>
             <a href="/consultancy" className="hover:text-gray-600">consultancy</a>
-            <a href="https://instagram.com" className="hover:text-gray-600">
+            <a href="https://www.instagram.com/jarofraspberry/" className="hover:text-gray-600">
                 <FaInstagram size={20} />
             </a>
-            <a href="https://linkedin.com" className="hover:text-gray-600">
+            <a href="https://www.linkedin.com/in/kseniia-brauer/" className="hover:text-gray-600">
                 <FaLinkedin size={20} />
             </a>
-            <a href="https://github.com" className="hover:text-gray-600">
+            <a href="https://github.com/code-ksu" className="hover:text-gray-600">
                 <FaGithub size={20} />
             </a>
             <a href="/contact" className="bg-teal-700 text-white px-4 py-2 rounded hover:bg-teal-600">
