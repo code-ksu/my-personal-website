@@ -1,12 +1,12 @@
 {
   "posts": [
     {
-      "id": "future-of-ai-2025",
-      "title": "The Future of AI in 2025",
-      "date": "2025-01-03",
-      "category": "AI",
-      "excerpt": "Exploring the latest developments in artificial intelligence and their impact on our daily lives.",
-      "image": "/content/blog/images/slts.png"
+      "id": "work-life-balance-mother",
+      "title": "Navigating Work-Life Balance as a Mother: A Candid Look",
+      "date": "2025-02-03",
+      "category": "Work/Life Balance",
+      "excerpt": "Becoming a mother reshapes your life in ways you can’t anticipate, and the idea of work-life balance often feels unattainable. While Germany offers some parental benefits, the reality is that many mothers still face immense challenges—from sleep deprivation and career sacrifices to a lack of systemic support. The shift to nuclear families has made parenting even more isolating, leaving many to juggle work and childcare alone.\n\nSolutions like onsite childcare, flexible work policies, and stronger state support could transform the landscape for working parents. But beyond policy changes, a societal shift is needed — children aren’t just a personal choice; they’re the future. It’s time we start treating them as such.",
+      "image": "/content/blog/images/digital-work-life-balance.md"
     },
     {
       "id": "digital-work-life-balance",
@@ -14,14 +14,6 @@
       "date": "2025-01-03",
       "category": "Work/Life Balance",
       "excerpt": "Practical strategies for maintaining work-life balance in an increasingly connected world.",
-      "image": "/content/blog/images/slts.png"
-    },
-    {
-      "id": "sustainable-business-practices",
-      "title": "Sustainable Business Practices",
-      "date": "2025-01-03",
-      "category": "Business",
-      "excerpt": "How modern businesses are adapting to meet environmental and social responsibilities.",
       "image": "/content/blog/images/slts.png"
     }
   ]
