@@ -124,8 +124,10 @@ function BlogPost() {
                     style={{ maxHeight: 'none' }}
                   />
                 ),
-                a: ({node, ...props}) => (
-                  <a {...props} className="text-blue-600 hover:text-blue-800 transition-colors" />
+                a: ({node, children, ...props}) => (
+                  <a {...props} className="text-blue-600 hover:text-blue-800 transition-colors">
+                    {children}
+                  </a>
                 ),
                 code: ({node, inline, ...props}) => (
                   inline ? 
