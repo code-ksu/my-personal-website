@@ -20,18 +20,18 @@ When mothers work fewer hours or take career breaks, they’re not just losing o
 ## What Needs to Change?
 Work-life balance for parents, requires targeted changes tailored to the challenges faced in Germany. Here are some specific steps that could make a real difference:
 
-    ### 1.	Improved Childcare Accessibility
-    
-    Kita availability has improved, but the challenges for young families remain. A forward-thinking solution is incorporating onsite childcare in workplaces — including co-working spaces. This not only keeps parents close to their children during the day but also resolves logistical challenges like commuting to separate locations. With onsite childcare, parents can integrate work and family life more seamlessly. Tax benefits for companies implementing such programs could drive adoption and foster a family-friendly work culture. Tax benefits for companies implementing such programs could drive adoption and foster a family-friendly work culture.
-    
-    ### 2.	Employer Responsibility
+### 1.	Improved Childcare Accessibility
 
-    Beyond childcare logistics, companies have a broader role to play in supporting working parents. Offering subsidized childcare or implementing flexible work arrangements are just a few ways employers can make a difference. These measures don’t just benefit parents — they improve employee retention, satisfaction, and overall productivity. Together, these initiatives would redefine workplaces as environments that genuinely support work-life balance.
+Kita availability has improved, but the challenges for young families remain. A forward-thinking solution is incorporating onsite childcare in workplaces — including co-working spaces. This not only keeps parents close to their children during the day but also resolves logistical challenges like commuting to separate locations. With onsite childcare, parents can integrate work and family life more seamlessly. Tax benefits for companies implementing such programs could drive adoption and foster a family-friendly work culture. Tax benefits for companies implementing such programs could drive adoption and foster a family-friendly work culture.
 
-    ### 3.	Robust State Support for Families
-    The government must recognize the broader implications of declining birth rates and invest in meaningful support systems. Flexible childcare options —such as in-home care subsidies — would bridge the gap for parents who feel their baby is too young for full-time care. Increasing Kindergeld by a mere 5 euros doesn’t address the real financial and emotional challenges families face.
-    
-    ### 4.	Community Building and Mindset Shift
-    Support programs that foster local networks among parents while also encouraging a societal shift in how we view children. During my pregnancy, I spent some time in Lisbon and was struck by how supportive the community was toward pregnant women and young children. In Germany, children are often seen as a personal choice rather than a collective responsibility. This mindset needs to change. Children are not just the concern of their parents. They are the future workforce and the guarantee of sustainable pensions and economic stability. A cultural shift toward valuing children as a societal asset is essential.
+### 2.	Employer Responsibility
+
+Beyond childcare logistics, companies have a broader role to play in supporting working parents. Offering subsidized childcare or implementing flexible work arrangements are just a few ways employers can make a difference. These measures don’t just benefit parents — they improve employee retention, satisfaction, and overall productivity. Together, these initiatives would redefine workplaces as environments that genuinely support work-life balance.
+
+### 3.	Robust State Support for Families
+The government must recognize the broader implications of declining birth rates and invest in meaningful support systems. Flexible childcare options —such as in-home care subsidies — would bridge the gap for parents who feel their baby is too young for full-time care. Increasing Kindergeld by a mere 5 euros doesn’t address the real financial and emotional challenges families face.
+
+### 4.	Community Building and Mindset Shift
+Support programs that foster local networks among parents while also encouraging a societal shift in how we view children. During my pregnancy, I spent some time in Lisbon and was struck by how supportive the community was toward pregnant women and young children. In Germany, children are often seen as a personal choice rather than a collective responsibility. This mindset needs to change. Children are not just the concern of their parents. They are the future workforce and the guarantee of sustainable pensions and economic stability. A cultural shift toward valuing children as a societal asset is essential.
 
 Motherhood shouldn’t come with a choice between your child and your career. But until these systemic issues are addressed, finding that elusive work-life balance will remain one of the biggest challenges mothers face. Germany can and should do better.

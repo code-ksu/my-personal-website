@@ -112,7 +112,7 @@ function BlogPost() {
             className="w-full h-64 object-cover rounded-lg mb-8"
           />
 
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg prose-slate max-w-none">
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}
               components={{
@@ -121,8 +121,16 @@ function BlogPost() {
                     {...props} 
                     src={transformImagePath(props.src)}
                     alt={props.alt || 'content visualisation'}
-                    className="rounded-lg shadow-sm my-8"
+                    className="rounded-lg shadow-md"
                   />
+                ),
+                a: ({node, ...props}) => (
+                  <a {...props} className="text-blue-600 hover:text-blue-800 transition-colors" />
+                ),
+                code: ({node, inline, ...props}) => (
+                  inline ? 
+                    <code {...props} className="bg-gray-100 rounded px-1 py-0.5" /> :
+                    <code {...props} className="block bg-gray-100 rounded p-4" />
                 )
               }}
             >
