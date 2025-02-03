@@ -82,11 +82,11 @@ const footer = () => (
                     {/* Rest of the component remains the same */}
                 </div>
 
-                {/* Subscribe button */}
+                {/* Subscribe link */}
                 <div className="text-center pb-32">
-                    <button className="text-gray-800 hover:text-gray-600 font-medium">
+                    <a href="https://www.youtube.com/@Startupslts" className="text-gray-800 hover:text-gray-600 font-medium">
                         subscribe here
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
