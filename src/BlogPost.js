@@ -109,7 +109,7 @@ function BlogPost() {
           <img 
             src={transformImagePath(post.image)} 
             alt={post.title}
-            className="w-full h-64 object-cover rounded-lg mb-8"
+            className="w-full h-96 object-cover mb-8"
           />
 
           <div className="prose prose-lg prose-slate max-w-none">
@@ -121,7 +121,7 @@ function BlogPost() {
                     {...props} 
                     src={transformImagePath(props.src)}
                     alt={props.alt || 'content visualisation'}
-                    className="rounded-lg shadow-md"
+                    style={{ maxHeight: 'none' }}
                   />
                 ),
                 a: ({node, ...props}) => (
