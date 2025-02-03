@@ -1,20 +1,12 @@
 {
   "posts": [
     {
-      "id": "work-life-balance-mother",
+      "id": "work-life-balance-as-a-mother",
       "title": "Navigating Work-Life Balance as a Mother: A Candid Look",
       "date": "2025-02-03",
       "category": "Work/Life Balance",
-      "excerpt": "Becoming a mother reshapes your life in ways you can’t anticipate, and the idea of work-life balance often feels unattainable. While Germany offers some parental benefits, the reality is that many mothers still face immense challenges—from sleep deprivation and career sacrifices to a lack of systemic support. The shift to nuclear families has made parenting even more isolating, leaving many to juggle work and childcare alone.\n\nSolutions like onsite childcare, flexible work policies, and stronger state support could transform the landscape for working parents. But beyond policy changes, a societal shift is needed — children aren’t just a personal choice; they’re the future. It’s time we start treating them as such.",
-      "image": ""
-    },
-    {
-      "id": "digital-work-life-balance",
-      "title": "Finding Balance in a Digital World",
-      "date": "2025-01-03",
-      "category": "Work/Life Balance",
-      "excerpt": "Practical strategies for maintaining work-life balance in an increasingly connected world.",
-      "image": "/content/blog/images/slts.png"
+      "excerpt": "Becoming a mother reshapes your life in ways you can’t anticipate, and the idea of work-life balance often feels unattainable. While Germany offers some parental benefits, the reality is that many mothers still face immense challenges — from sleep deprivation and career sacrifices to a lack of systemic support. The shift to nuclear families has made parenting even more isolating, leaving many to juggle work and childcare alone.\n\nSolutions like onsite childcare, flexible work policies, and stronger state support could transform the landscape for working parents. But beyond policy changes, a societal shift is needed — children aren’t just a personal choice; they’re the future. It’s time we start treating them as such.",
+      "image": "/content/blog/images/mother.jpg"
     }
   ]
 }
