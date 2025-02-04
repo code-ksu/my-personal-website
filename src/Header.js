@@ -81,8 +81,20 @@ const Header = () => {
                     isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                 } flex flex-col bg-gradient-to-br from-white via-white to-teal-50 shadow-2xl`}>
                     <div className="flex flex-col h-full p-8">
+                        {/* Close Button */}
+                        <button 
+                            className="absolute top-6 right-6 p-2 hover:text-teal-700 transition-colors duration-200 z-50"
+                            onClick={toggleMenu}
+                            aria-label="Close menu"
+                        >
+                            <div className="relative w-6 h-6">
+                                <span className="absolute block h-0.5 w-6 bg-current transform rotate-45 top-3"></span>
+                                <span className="absolute block h-0.5 w-6 bg-current transform -rotate-45 top-3"></span>
+                            </div>
+                        </button>
+
                         {/* Background Pattern */}
-                        <div className="absolute inset-0">
+                        <div className="absolute inset-0 z-0">
                             <div className="absolute inset-0 bg-repeat opacity-5" 
                                  style={{
                                      backgroundImage: `url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2300897B' fill-opacity='1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3C/g%3E%3C/svg%3E")`,
