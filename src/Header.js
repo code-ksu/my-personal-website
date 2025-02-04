@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaGithub, FaBars, FaTimes } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 
 const Header = () => {
