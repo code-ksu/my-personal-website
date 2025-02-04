@@ -20,9 +20,11 @@ const Header = () => {
         <>
             <nav className="flex justify-between items-center p-6 sticky top-0 z-50 backdrop-blur-sm bg-white/80 transition-all duration-300">
                 <div className="text-2xl font-bold">
-                    <span className="inline-block rounded-full border-2 border-gray-800 p-2">
-                        KB
-                    </span>
+                    <a href="/" className="inline-block hover:opacity-80 transition-opacity duration-200">
+                        <span className="inline-block rounded-full border-2 border-gray-800 p-2">
+                            KB
+                        </span>
+                    </a>
                 </div>
 
                 {/* Mobile Menu Button */}
