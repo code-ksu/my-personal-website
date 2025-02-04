@@ -1,4 +1,4 @@
-const footer = () => (
+const Footer = () => (
     <>
         {/* Podcast Section with Wave */}
         <div className="relative">
@@ -100,4 +100,4 @@ const footer = () => (
         </footer>
     </>
 );
-export default footer;
+export default Footer;
