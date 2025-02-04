@@ -1,5 +1,3 @@
-# Navigating Work-Life Balance as a Mother: A Candid Look
-
 Becoming a mother changes your life in ways you can’t fully grasp until you’re living it. Suddenly, the concept of work-life balance feels like a distant dream rather than an achievable goal. For me, motherhood has been both a joyful journey and an eye-opening lesson in how deeply inadequate societal support systems are for families. And here's the thing—Germany, for all its perks, isn't even the worst when it comes to supporting parents.
 Let’s talk about that first year.
 

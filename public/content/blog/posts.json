@@ -7,6 +7,14 @@
       "category": "Work/Life Balance",
       "excerpt": "Becoming a mother reshapes your life in ways you can’t anticipate, and the idea of work-life balance often feels unattainable. While Germany offers some parental benefits, the reality is that many mothers still face immense challenges — from sleep deprivation and career sacrifices to a lack of systemic support. The shift to nuclear families has made parenting even more isolating, leaving many to juggle work and childcare alone.\n\nSolutions like onsite childcare, flexible work policies, and stronger state support could transform the landscape for working parents. But beyond policy changes, a societal shift is needed — children aren’t just a personal choice; they’re the future. It’s time we start treating them as such.",
       "image": "/content/blog/images/mother.jpg"
+    },
+    {
+      "id": "webseite-development",
+      "title": "How This Website Was Created: A Journey of AI, Code, and Creativity",
+      "date": "2025-02-04",
+      "category": "AI",
+      "excerpt": "Building a website from scratch using React — with no prior experience was an ambitious challenge. Instead of relying on a traditional website builder, I teamed up with an AI assistant, Claude, to turn my vision into reality. The journey started smoothly, with AI generating clean code and styling, but I quickly ran into roadblocks: outdated npm suggestions, creative limitations, and AI’s struggles with project-wide context.\n\nThat’s when I discovered Windsurf — a more intuitive AI tool that streamlined my workflow with smart code cleanup and context-aware suggestions. Despite its quirks, Windsurf helped bridge the gap between AI assistance and human decision-making. This experience reinforced a key lesson: AI isn’t replacing developers yet, but it’s transforming how we create, learn, and build.",
+      "image": "/content/blog/images/AI assistant chatbot.jpg"
     }
   ]
 }
