@@ -35,7 +35,7 @@ function BlogPost() {
         const currentPost = data.posts.find(p => p.id === id);
         if (currentPost) {
           setPost(currentPost);
-          
+
           // Load markdown content
           return fetch(`${process.env.PUBLIC_URL}/content/blog/${id}.md`);
         }
@@ -75,8 +75,8 @@ function BlogPost() {
   return (
     <div className={`min-h-screen ${categoryStyle.background}`}>
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        <Link 
-          to="/blog" 
+        <Link
+          to="/blog"
           className="inline-flex items-center mb-8 text-gray-600 hover:text-gray-800 transition-colors"
         >
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -102,35 +102,46 @@ function BlogPost() {
               {post.title}
             </h1>
             <p className="text-xl text-gray-600">
-              {post.excerpt}
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  a: ({ node, children, ...props }) => (
+                    <a {...props} className="text-blue-600 hover:text-blue-800 transition-colors">
+                      {children}
+                    </a>
+                  ),
+                }}
+              >
+                {post.excerpt}
+              </ReactMarkdown>
             </p>
           </header>
 
-          <img 
-            src={transformImagePath(post.image)} 
+          <img
+            src={transformImagePath(post.image)}
             alt={post.title}
             className="w-full h-96 object-cover mb-8"
           />
 
           <div className="prose prose-lg prose-slate max-w-none">
-            <ReactMarkdown 
+            <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
-                img: ({node, ...props}) => (
-                  <img 
-                    {...props} 
+                img: ({ node, ...props }) => (
+                  <img
+                    {...props}
                     src={transformImagePath(props.src)}
                     alt={props.alt || 'content visualisation'}
                     style={{ maxHeight: 'none' }}
                   />
                 ),
-                a: ({node, children, ...props}) => (
+                a: ({ node, children, ...props }) => (
                   <a {...props} className="text-blue-600 hover:text-blue-800 transition-colors">
                     {children}
                   </a>
                 ),
-                code: ({node, inline, ...props}) => (
-                  inline ? 
+                code: ({ node, inline, ...props }) => (
+                  inline ?
                     <code {...props} className="bg-gray-100 rounded px-1 py-0.5" /> :
                     <code {...props} className="block bg-gray-100 rounded p-4" />
                 )

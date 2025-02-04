@@ -15,6 +15,14 @@
       "category": "AI",
       "excerpt": "Building a website from scratch using React — with no prior experience was an ambitious challenge. Instead of relying on a traditional website builder, I teamed up with an AI assistant, Claude, to turn my vision into reality. The journey started smoothly, with AI generating clean code and styling, but I quickly ran into roadblocks: outdated npm suggestions, creative limitations, and AI’s struggles with project-wide context.\n\nThat’s when I discovered Windsurf — a more intuitive AI tool that streamlined my workflow with smart code cleanup and context-aware suggestions. Despite its quirks, Windsurf helped bridge the gap between AI assistance and human decision-making. This experience reinforced a key lesson: AI isn’t replacing developers yet, but it’s transforming how we create, learn, and build.",
       "image": "/content/blog/images/AI assistant chatbot.jpg"
+    },
+    {
+      "id": "go-to-market-strategy",
+      "title": "Cracking the Code: How to Nail Your Startup’s Go-To-Market Strategy",
+      "date": "2025-02-04",
+      "category": "Business",
+      "excerpt": "Bringing a new product to market is no small feat. In [episode #5](https://www.youtube.com/watch?v=sVoLfBpJ7Po) of our podcast [Startup Sl*ts](https://www.youtube.com/@Startupslts), we sat down with Anna, a seasoned expert in go-to-market (GTM) strategies, to uncover the secrets of a successful product launch. From distinguishing GTM from traditional marketing to crafting compelling messaging and setting the right pricing, Anna shares practical insights every startup needs. She also dives into real-world examples, like how a French dating site used a bold offline campaign to capture attention. Whether you're launching a new venture or refining your approach, this guide will help you navigate the journey from idea to market success.",      
+      "image": "/content/blog/images/GTM.jpg"
     }
   ]
 }

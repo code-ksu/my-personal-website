@@ -53,21 +53,7 @@ function CategoryFilter({ categories, activeCategory, onCategoryClick }) {
 }
 
 function BlogPostPreview({ post, onCategoryClick }) {
-  const [content, setContent] = useState('');
   const categoryStyle = categoryColors[post.category] || categoryColors['AI'];
-
-  useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/content/blog/${post.id}.md`)
-      .then(response => response.text())
-      .then(text => {
-        const paragraphs = text.split('\n\n');
-        const firstParagraph = paragraphs.find(p => !p.startsWith('#'));
-        setContent(firstParagraph || '');
-      })
-      .catch(error => {
-        console.error('Error loading markdown:', error);
-      });
-  }, [post.id]);
 
   const transformImagePath = (src) => {
     if (src.startsWith('/')) {
@@ -111,21 +97,20 @@ function BlogPostPreview({ post, onCategoryClick }) {
             <h2 className="text-2xl font-semibold text-gray-800 mb-2 group-hover:text-gray-600 transition-colors">
               {post.title}
             </h2>
-            <p className="text-gray-600 mb-4 line-clamp-2">
-              {post.excerpt}
-            </p>
-            <div className="prose prose-sm max-w-none mb-4">
+            <p className="text-gray-600 mb-4">
               <ReactMarkdown 
                 remarkPlugins={[remarkGfm]}
                 components={{
-                  img: ({node, ...props}) => (
-                    <img {...props} src={transformImagePath(props.src)} alt={props.alt || 'content visualisation'} />
-                  )
+                  a: ({node, children, ...props}) => (
+                    <a {...props} className="text-blue-600 hover:text-blue-800 transition-colors">
+                      {children}
+                    </a>
+                  ),
                 }}
               >
-                {content}
+                {post.excerpt}
               </ReactMarkdown>
-            </div>
+            </p>
             <div className="mt-4 flex items-center gap-1 text-blue-600 group-hover:text-blue-800 font-medium transition-colors">
               Read more 
               <svg className="w-4 h-4 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
