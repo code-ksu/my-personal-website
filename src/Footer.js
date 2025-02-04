@@ -91,8 +91,10 @@ const footer = () => (
             </div>
         </div>
         <footer className="bg-white py-8 text-center">
-            <p className="text-sm text-gray-600"> Kseniia Brauer {new Date().getFullYear()}</p>
-            <a href="/impressum" className="text-sm text-gray-600 hover:text-gray-800 ml-4">
+            <p className="text-sm text-gray-600">
+                &copy; Kseniia Brauer {new Date().getFullYear()}
+            </p>
+            <a href="/impressum" className="text-sm text-gray-600 hover:text-gray-800">
                 Impressum
             </a>
         </footer>
