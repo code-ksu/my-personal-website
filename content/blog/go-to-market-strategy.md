@@ -34,9 +34,9 @@ On the other hand, if you’re bringing something entirely new to the market, yo
 ## Step Four: Messaging & Pricing — Getting It Just Right
 
 Once you know your audience and positioning, it’s time to craft the right message. This means:
-•	Communicating the problem your product solves
-•	Explaining why it’s better than alternatives
-•	Making sure it speaks directly to the right people
+- Communicating the problem your product solves
+- Explaining why it’s better than alternatives
+- Making sure it speaks directly to the right people
 
 And then there’s pricing — a delicate balancing act. “You can have an amazing product, but if it’s priced wrong, you’ll struggle,” Anna warned. “Too high, and you alienate your market. Too low, and you devalue your brand”.
 
